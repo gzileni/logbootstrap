@@ -26,3 +26,38 @@ useful colorful log messages
 - 'secondary': gray
 - 'primary': blue
 - 'danger': red
+
+## Examples
+### Create Hello World nodejs application
+```
+$ mkdir ~/helloworld
+$ cd ~/helloword
+$ nano index.js
+```
+### index.js
+```
+const http = require('http');
+const log = require('logbootstrap);
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello, World!\n');
+});
+
+server.listen(port, hostname, () => {
+  log('info', 'Server running at http://${hostname}:${port}/');
+  log('success', 'Success log information');
+  log('warning', 'Warning log information');
+  log('secondary', 'Secondary log information');
+  log('primary', 'Primary log information');
+  log('danger', 'Danger log information');
+});
+```
+### Run nodejs application
+```
+node index.js
+```

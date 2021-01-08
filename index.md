@@ -5,7 +5,6 @@ useful colorful log messages
 
 ```
     npm install --save logbootstrap
-
     yarn add logbootstrap
 ```
 
@@ -13,9 +12,7 @@ useful colorful log messages
 
 ```
     var log = require('logbootstrap);
-
     log('success', 'message to log');
-
 ```
 
 ### Colors
@@ -32,6 +29,7 @@ useful colorful log messages
 ```
 $ mkdir ~/helloworld
 $ cd ~/helloword
+$ npm install logbootstrap
 $ nano index.js
 ```
 ### index.js

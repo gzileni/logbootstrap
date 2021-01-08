@@ -63,4 +63,4 @@ node index.js
 
 ![console](./assets/img/logbootstrap.png)
 
-[![Giuseppe Zileni's DEV Community Profile](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg)](https://dev.to/gzileni =90x)
+[![Giuseppe Zileni's DEV Community Profile](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg)](https://dev.to/gzileni){ width=50% }

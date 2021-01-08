@@ -62,5 +62,3 @@ node index.js
 ```
 
 ![console](./assets/img/logbootstrap.png)
-
-![Giuseppe Zileni's DEV Community Profile](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg){: width=150 height=100 style="float:right; padding:16px"}(https://dev.to/gzileni)

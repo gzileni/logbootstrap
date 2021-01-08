@@ -29,6 +29,7 @@ useful colorful log messages
 ```
 $ mkdir ~/helloworld
 $ cd ~/helloword
+$ npm init
 $ npm install logbootstrap
 $ nano index.js
 ```

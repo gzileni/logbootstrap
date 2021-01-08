@@ -60,4 +60,4 @@ server.listen(port, hostname, () => {
 node index.js
 ```
 
-![console](../assets/img/logbootstrap.png)
+![console](./assets/img/logbootstrap.png)

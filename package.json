@@ -1,7 +1,7 @@
 {
   "name": "logbootstrap",
   "version": "1.0.0",
-  "description": "Nice message logs",
+  "description": "usefu color log message",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,13 +11,17 @@
     "url": "git+https://github.com/gzileni/logbootstrap.git"
   },
   "keywords": [
-    "log",
-    "nodejs"
+    "colors",
+    "nodejs",
+    "javascript"
   ],
-  "author": "Giuseppe Zileni @gzileni giuseppe.zileni@gmail.com",
+  "author": "Giuseppe Zileni, giuseppe.zileni@gmail.com, @gzileni",
   "license": "MIT",
   "bugs": {
-    "url": https://github.com/gzileni/logbootstrap.git/issues"
+    "url": "https://github.com/gzileni/logbootstrap/issues"
   },
-  "homepage": "https://gzileni.github.io/logbootstrap/"
+  "homepage": "https://github.com/gzileni/logbootstrap#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

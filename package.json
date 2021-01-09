@@ -1,6 +1,6 @@
 {
   "name": "logbootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "usefu color log message",
   "main": "index.js",
   "scripts": {
